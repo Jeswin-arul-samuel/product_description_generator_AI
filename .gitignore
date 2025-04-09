@@ -1,0 +1,19 @@
+#frontend Noed.js
+node_module/
+frontend/dist/
+frontend/.env.local
+frontend/node_modules/
+
+#python backend
+
+__pycache__/
+*.pyc
+/backend/.env
+/backend/__pycache__/
+.venv/
+env/
+
+#Os files
+.DS_Store
+
+
