@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: product-metadata-backend
+    name: product-descriptor-backend
     env: python
     region: oregon
     plan: free
