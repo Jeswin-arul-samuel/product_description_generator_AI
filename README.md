@@ -1,11 +1,11 @@
-## Project Description:
+# Project Description:
 The Product Description Generator AI aims at recognizing a fashion or electronic product, generating and displaying a Title, a small description of 40 to 50 words and listing 5 - 6 features of the product.
 
-## Tools and Technologies used:
-**Backend:** FastAPI (python)
-**Frontend:** vite + React (Javascript)
-**AI Models for image recognition:** Salesforce/blip-image-captioning-base (a pre-trained model)
-**AI Model for promp engineering and text generation:** OpenAI gpt-4o
+# Tools and Technologies used:
+**Backend:** FastAPI (python)  
+**Frontend:** vite + React (Javascript)  
+**AI Models for image recognition:** Salesforce/blip-image-captioning-base (a pre-trained model)  
+**AI Model for promp engineering and text generation:** OpenAI gpt-4o  
 
 # To deploy and run the project in you local system(ubuntu os / wsl):
 
