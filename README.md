@@ -7,10 +7,12 @@ Frontend: vite + React (Javascript)
 AI Models for image recognition: Salesforce/blip-image-captioning-base (a pre-trained model)
 AI Model for promp engineering and text generation: OpenAI gpt-4o
 
-Project Structure:
-project_folder
-  |_ backend
-    |_ models
-      |_ electronics_model.py         # To detect the electronics product and generate the required output
-      |_ fashion_model.py             # To detect the fashion product and generate the required output
-      |_ gpt_wrapper.py               # To help the above 2 models to generate the 
+To deploy and run the project in you local system:
+1. Download the project or clone the github repo.
+2. Open a terminal from the root folder
+3. Then go to the backend folder by using the command: cd backend
+4. Install the required packages and libraries for the backend: pip install -r requirements.txt
+5. After all the installation, in the backend folder create a .env file
+6. Create a variable called OPEN_API_KEY= in the .env file
+7. Now generate a apikey for the project on your openai platform and paste the key here
+8. Then move to the frontend folder by using command:
